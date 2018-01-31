@@ -1,4 +1,5 @@
 <?php
+require 'scraperwiki.php';
 require  'scraperwiki/simple_html_dom.php';
 $dom = new simple_html_dom();
 $dom->load(scraperwiki::scrape("http://www.bwea.com/ukwed/operational.asp"));
